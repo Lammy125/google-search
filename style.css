@@ -6,6 +6,7 @@ body {
     background-color: #202124;
     font-family: "Google Sans", arial, sans-serif-medium, sans-serif;
     font-weight: 400;
+    height: 100vh;
 }
 #navBarTop {
     display: flex;
@@ -135,6 +136,18 @@ h1 {
     font-weight: 400;
     font-size: 28px;
 }
+h2 {
+    color: white;
+    padding: 10px 0;
+    font-weight: 300;
+    font-size: 23px;
+}
+h4 {
+    color: #a7abaf;
+    padding: 10px 0;
+    font-weight: 300;
+    font-size: 17px;
+}
 .elem2 {
     display: flex;
     gap: 1px;
@@ -204,4 +217,127 @@ h1 {
 .info:hover {
     cursor: pointer;
     background-color: #606d86;
+}
+
+#relatedSearch {
+    display: flex;
+    align-items: center;
+}
+
+.related {
+    border-top: 1px solid #383c3f;
+    width: 650px;
+    padding: 8px 0;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.relatedFlex {
+    display: flex;
+    gap: 12px;
+}
+
+.relatedImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.arrowDown {
+    width: 24px;
+    height: 24px;
+}
+
+.related:hover {
+    cursor: pointer;
+}
+
+.related1 {
+    border-top: 1px solid #383c3f;
+    width: 600px;
+    padding: 8px 0;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divConSearch {
+    display: flex;
+    gap: 15px;
+}
+
+.searchInput1 {
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 8px 25px;
+    width: 270px;
+    height: 30px;
+    background-color: #303134;
+    border-radius: 50px;
+    margin: 5px 0;
+}
+
+.searchInput1 input {
+    color: #a7abaf;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 25px;
+    width: 270px;
+    background-color: #303134;
+    border: none;
+}
+
+.searchInput1 input:focus {
+    outline: none;
+}
+
+.searchInput1 input:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    font-family: arial, sans-serif;
+    font-weight: 400;
+}
+#navBarBottom2 {
+    border-bottom: 1px solid #383c3f;
+    display: flex;
+    gap: 15px;
+    background-color: #171717;
+    padding: 10px 25px 0 13%;
+    font-style: normal;
+    color: #a7abaf;
+    text-align: center;
+}
+
+#niger {
+    border-right: 1px solid #383c3f;
+    padding: 10px 10px 10px 0;
+}
+
+#navBarBottom2 ul {
+    padding: 10px;
+    font-size: 14px;
+}
+
+#navBarBottom2 ul:hover {
+    cursor: pointer;
+}
+
+#navBarBottom2 ul span {
+    color: #7b94c3;
+}
+
+#navBarBottom3 {
+    border-bottom: 1px solid #383c3f;
+    display: flex;
+    gap: 25px;
+    background-color: #171717;
+    padding: 15px 25px 25px 13%;
+    font-style: normal;
 }
