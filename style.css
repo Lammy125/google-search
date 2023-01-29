@@ -148,6 +148,13 @@ h4 {
     font-weight: 300;
     font-size: 17px;
 }
+
+h3 {
+    color: white;
+    padding: 10px 0;
+    font-weight: 300;
+    font-size: 20px;
+}
 .elem2 {
     display: flex;
     gap: 1px;
@@ -189,6 +196,61 @@ h4 {
     gap: 20px;
     padding: 15px 0;
 }
+
+#bodyFlex {
+    display: flex;
+}
+
+#aboutMessi {
+    margin-left: 9%;
+    border-left: 1px solid #383c3f;
+    padding: 0 20px;
+    line-height: 1.5;
+}
+
+.aboutTop {
+    padding: 5px 0;
+}
+
+.abt {
+    color: #abb4b8;
+}
+
+#aboutMessi span {
+    color: #7b94c3;
+}
+
+#aboutMessi span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#claimPanel {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #383c3f;
+    padding: 5px 0 15px 0;
+}
+
+.claimDiv {
+    color: #a7abaf;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 25px;
+    border: 1px solid #383c3f;
+    border-radius: 50px;
+}
+
+#profile {
+    border-bottom: 1px solid #383c3f;
+}
+
+#socialMedia {
+    display: flex;
+    gap: 30px;
+    padding: 10px 5px;
+}
+
 #imgDiv {
     display: flex;
     border-radius: 20px;
@@ -291,7 +353,7 @@ h4 {
     width: 650px;
 }
 
-#feedBack {
+.feedBack {
     font-size: 12px;
 }
 
@@ -356,7 +418,7 @@ footer {
     display: flex;
     gap: 15px;
     background-color: #171717;
-    padding: 10px 25px 0 13%;
+    padding: 10px 0 0 13%;
     font-style: normal;
     color: #a7abaf;
     text-align: center;
@@ -367,16 +429,20 @@ footer {
     padding: 10px 10px 10px 0;
 }
 
-#navBarBottom2 ul {
-    padding: 10px;
+#navBarBottom2 li {
     font-size: 14px;
 }
 
-#navBarBottom2 ul:hover {
+#navBarBottom2 li:hover {
     cursor: pointer;
 }
 
-#navBarBottom2 ul span {
+#navBarBottom2 li::marker {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+
+#navBarBottom2 li span {
     color: #7b94c3;
 }
 
